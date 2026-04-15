@@ -90,7 +90,7 @@ def main() -> None:
     plt.plot(query_df["query_residue_number"], query_df["shannon_entropy"])
     plt.xlabel("Query residue number")
     plt.ylabel("Shannon entropy")
-    plt.title("BMC-P conservation profile (query residues)")
+    plt.title("BMC-T1 conservation profile (query residues)")
     plt.tight_layout()
     plt.savefig(PLOT_PNG, dpi=300)
 
