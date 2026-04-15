@@ -1,4 +1,3 @@
-reinitialize
 # Load your structure manually before running these commands if needed
 hide everything
 show cartoon
